@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.profile-card{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: 1.5s;
+
+
+}
+.profile-card:hover{
+    border-radius: 10px;
+    height: 280px;
+}
+.profile-card .image{
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 99;
+}
+.profile-card:hover img{
+    border-radius: 10px;
+}
+.image img{
+    width: 100%;
+    height:100px ;
+    border-radius: 50%;
+    transition: 2s;
+
+}
+.profile-card:hover .image{
+    transform: translateY(-80px);
+}
+.caption{
+    text-align: center;
+    transform: translateY(-90px);
+    opacity: 0;
+
+}
+h1{
+    text-align: center;
+    border-bottom: 3px solid rgb(116, 116, 209);
+  display: inline-block;
+	font-size: 25px;
+	padding-bottom: 5px;
+
+	padding: 4px 4px 6px 4px;
+    margin-left: 500px;
+    font-family: 'Yeseva One', cursive; 
+
+}
+.profile-card:hover .caption{
+    opacity: 1;
+}
+.caption p{
+    font-size: 11px;
+    color: rgb(70, 52, 105);
+    margin: 2px 0 8px 0;
+    font-family: 'Yeseva One', cursive; 
+}
+.caption h3{
+    font-size: 18px;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 3px;
+}
+.caption a{
+    color: rgb(138, 101, 197);
+}
