@@ -2,40 +2,49 @@
 const reviews = [
     {
       id: 1,
-      name: "susan smith",
+      name: "simon adjei",
       job: "web developer",
       img:
         "team/tech.jpg",
       text:
-        "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+        "Its been wonderful working with the teckhub team.i would say their services are one of the best in the corporate world and coherent in providing the best design and development ",
     },
     {
       id: 2,
-      name: "anna johnson",
+      name: "clement koranteng",
       job: "web designer",
       img:
         "team/tech.jpg",
       text:
-        "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+        "Its been wonderful working with the teckhub team.i would say their services are one of the best in the corporate world and coherent in providing the best design and development ",
     },
     {
       id: 3,
-      name: "peter jones",
-      job: "intern",
+      name: "Gideon Lambride",
+      job: "mobile dev",
       img:
         "team/tech.jpg",
       text:
-        "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+        "Its been wonderful working with the teckhub team.i would say their services are one of the best in the corporate world and coherent in providing the best design and development ",
     },
     {
       id: 4,
-      name: "bill anderson",
+      name: "jahel",
       job: "the boss",
       img:
         "team/tech.jpg",
       text:
-        "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+      "Its been wonderful working with the teckhub team.i would say our services are one of the best in the corporate world and coherent in providing the best design and development ",
     },
+    {
+      id: 5,
+      name: "micheal aboagye",
+      job: "mobile developer",
+      img:
+        "team/tech.jpg",
+      text:
+        "Its been wonderful working with the teckhub team.i would say their services are one of the best in the corporate world and coherent in providing the best design and development ",
+    }
   ];
   // select items
   const img = document.getElementById("person-img");
