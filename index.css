@@ -370,7 +370,7 @@ footer {
 }
 @media  screen and (max-width:800px) {
 	.item{
-		width: 50%;
+		width: 60%;
 	}
 	
 }
@@ -380,6 +380,8 @@ footer {
 }
 .item:hover{
 	background: rgb(158, 150, 229);
+}
+
 }
 	
 	button{
