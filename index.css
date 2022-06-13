@@ -222,6 +222,18 @@ nav {
 @media screen and (min-width: 800px) {
   nav {
     background: transparent;
+    z-index: 10;
+  }
+  @media screen and (max-width: 360px) {
+    nav {
+     z-index: -100;
+    }
+   #person-img{
+     display: flex;
+   }
+   .img-container{
+     display: flex;
+   }
   }
   .nav-center {
     width: 90vw;
@@ -269,7 +281,7 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(135, 137, 255, 0.5), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(29, 32, 216, 0.5), rgba(0, 0, 0, 0.7)),
     url(./hero-bcg.jpeg) center/cover no-repeat;
 }
 #head{
@@ -588,6 +600,7 @@ main {
   box-shadow: var(--light-shadow);
   transition: var(--transition);
   text-align: center;
+
 }
 .review:hover {
   box-shadow: var(--dark-shadow);
@@ -599,14 +612,17 @@ main {
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
+  z-index: -100px;
+
 }
 #person-img {
   width: 100%;
-  display: block;
+  display: flex;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
   position: relative;
+  overflow: hidden;
 }
 .img-container::after {
   font-family: "Font Awesome 5 Free";

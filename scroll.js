@@ -39,13 +39,12 @@ window.addEventListener("scroll", function () {
   if (scrollHeight > navHeight) {
     navbar.classList.add("fixed-nav");
   }
-  else if(scrollHeight>300){
-    navbar.classList.remove("fixed-nav");
-  }
+  
   
   else {
     navbar.classList.remove("fixed-nav");
   }
+  
   // setup back to top link
 
   if (scrollHeight > 500) {
@@ -60,7 +59,7 @@ window.addEventListener("scroll", function () {
 // ********** smooth scroll ************
 // select links
 
-const scrollLinks = document.querySelectorAll(".scroll-link");
+const scrollLinks = document.querySelectorAll(".scrol");
 scrollLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     // prevent default
